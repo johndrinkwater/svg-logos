@@ -5,11 +5,11 @@
 body { color: black; background: #eee; text-shadow: 2px 2px 4px rgba(2, 35, 7, 0.6); }
 a { line-height: 1px; display: inline-block; border-radius: 50%; /*background-color: rgba(0, 0, 0, 0.1);*/ }
 svg { width: 82px; height: 82px; }
-svg, svg path, svg .inverted { transition: color .35s, background .7s, fill .35s, stroke .35s; }
+svg, svg path, svg .inverted { transition: color .35s, background .7s, fill .35s, stroke .35s, box-shadow .35s; }
 svg { box-sizing: content-box; background: #999; }
 svg { border-radius: 50%; padding: 0.5em; }
 svg:hover { background-color: transparent; cursor:pointer }
-svg:not(:hover) { background-color: currentColor; }
+svg:not(:hover) { background-color: currentColor; box-shadow: 2px 2px 4px rgba(100,100,100,.3); }
 svg:not(:hover) path[fill] { fill: white; }
 svg:not(:hover) path[fill].inverted { fill: currentColor; stroke: white; }
 </style>
