@@ -2,17 +2,15 @@
 <html>
 <style>
 
-body { color: black; background: white; }
+body { color: black; background: #ddd; }
 img { padding: 1em; color: brown; }
-svg { width: 256px; height: 256px; }
-svg, svg .inverted { transition: color .25s, background .25s; }
-svg:hover { background: transparent; border: 1px solid #999; }
-svg:not(:hover) { color: white !important; }
-/*svg:not(:hover) path[fill] { fill: white; }
-svg:not(:hover) path[fill].inverted { fill: #999; }*/
-svg:not(:hover) .inverted { color: #999 !important; }
-svg { box-sizing: content-box; border: 1px solid #777; background: #999; }
-svg { border-radius: 50%; padding: 1em; } 
+svg { width: 64px; height: 64px; }
+svg, svg path, svg .inverted { transition: color .35s, background .35s, fill .35s, stroke .35s; }
+svg:hover { background: transparent; }
+svg:not(:hover) path[fill] { fill: #ddd; }
+svg:not(:hover) path[fill].inverted { fill: #999; stroke: #ddd; }
+svg { box-sizing: content-box; background: #999; }
+svg { border-radius: 50%; padding: 0.5em; }
 </style>
 <body>
 <?php
