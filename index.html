@@ -7,7 +7,7 @@ a { line-height: 1px; display: inline-block; border-radius: 50%; /*background-co
 div svg { width: 56px; height: 56px; }
 svg, svg path, svg .inverted { transition: color .35s, background .7s, fill .35s, stroke .35s, box-shadow .35s; }
 div svg { box-sizing: content-box; background: #999; }
-div svg { border-radius: 50%; padding: 0.5em; }
+div svg { border-radius: 50%; padding: 7px; }
 div svg:hover { background-color: transparent; cursor:pointer }
 div svg:not(:hover) { background-color: #aaa; }
 div svg:not(:hover) path[fill] { fill: #eee; }
@@ -16,12 +16,13 @@ div svg:not(:hover) path[fill].inverted { fill: #aaa; stroke: #eee; }
 #exampletwo svg:not(:hover) { background-color: currentColor; box-shadow: 2px 2px 4px rgba(100,100,100,.3); }
 #exampletwo svg:not(:hover) path[fill] { fill: white; }
 #exampletwo svg:not(:hover) path[fill].inverted { fill: currentColor; stroke: white; }
-div { padding-top: 2em; }
+div { padding-top: 16px; }
 </style>
 <body>
 <h1>Abusing inline <abbr title="Scalable Vector Graphics">SVG</abbr> with <abbr title="Cascading Style Sheets">CSS</abbr> for profit</h1>
-<p>This is a simple proof-on-concept demo for a refresh of my website, to show that SVGs don’t have to be as static as typically used - and I don’t even mean to suggest they require <em>animation</em>, just that they have the ability to be more flexible than currently used.<p>
-<p>This simply overrides the internal colours set on a few fill rules (and for Reddit, stroke colour), so make them less visually heavy unless required.</p>
+<p>This is a simple proof-of-concept demo for a refresh of my website, to show that SVGs don’t have to be as static as typically used - and I don’t even mean to suggest they require <em>animation</em>, just that they have the ability to be more flexible than currently used.</p>
+<p>Why do this? I’ve seen a few people (ab)use currentColor to push styles into &lt;svg&gt; images, but no-one doing the inverse, having their HTML adapt due to the image used.</p>
+<p>This simply overrides the internal colours set on a few fill rules (and for Reddit, stroke colour), to make them less visually heavy, or more impactful as required.</p>
 <p>Further changes could include changing fill-rule to make them truly transparent, or using recent CSS filters to desaturate the colours while still keeping to the same branding.</p>
 <p>~ johndrinkwater <time datetime="2015-02-01">2015-02-01</time></p>
 <p>We take our source image, like so: <svg style="vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="54" height="54"><use xlink:href="#twitter" x="-5" y="-5"/></svg> and apply a few rules to it to get the following.<br><small>(Chrome breaks with &lt;use&gt;, assume you see a Twitter bird here.)</small></p>
