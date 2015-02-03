@@ -29,6 +29,7 @@ https://help.instagram.com/304689166306603
 
 Reddit
 Alien eyes			#ff4500
+Background			#cee2f8
 https://www.reddit.com/about/alien/
 
 RSS
@@ -37,12 +38,18 @@ Standard feed		#ff6600
 Soundcloud
 Light				#ff8800
 Dark				#ff3300
-Sidenote, site lacks any colours; guessed from poking with logo 
+Sidenote, site lacks any colours; guessed from poking with logo
 https://developers.soundcloud.com/docs/api/buttons-logos
 
 Steam
 Site lacks any colours. Offers logos in #fff
 https://partner.steamgames.com/documentation/branding
+
+Stackoverflow
+Orange				#fe7a15
+					#f37a20
+Site lacks any colours; ones pulled from logos are different in colour
+http://stackexchange.com/about/logos
 
 Twitter
 Primary				#55acee
