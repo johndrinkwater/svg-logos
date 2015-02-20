@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="64" height="64" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="imgur.svg">
-  <defs id="defs4" />
-  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.3975429" inkscape:cx="43.209912" inkscape:cy="24.871194" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1032" inkscape:window-x="0" inkscape:window-y="24" inkscape:window-maximized="1" />
-  <metadata id="metadata7">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <path style="fill:#272727;fill-opacity:1" inkscape:connector-curvature="0" d="m 50.450136,56.00002 -36.900269,0 C 10.499558,56.00002 8,53.54282 8,50.45002 l 0,-36.9002 c 0,-3.05028 2.457193,-5.54984 5.549867,-5.54984 l 36.900269,0 C 53.500448,7.99998 56,10.45723 56,13.54982 l 0,36.9002 c 0,3.0504 -2.457194,5.55 -5.549864,5.55" id="path4" sodipodi:nodetypes="csssssssc" />
-  <path style="fill:#85bf25;fill-opacity:1" d="m 33.68932,46.17142 c 8.504053,-1.1319 14.107368,-9.4443 11.965629,-17.7508 -1.469825,-5.7006 -6.381286,-9.9727 -12.22418,-10.6329 -8.724694,-0.9859 -16.302206,6.1058 -15.892227,14.8734 0.391188,8.3657 7.860357,14.6137 16.150778,13.5103 z" id="path3000" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64" viewBox="0,0,64,64" color="#272727"><path d="m50.5 56-36.9 0C10.5 56 8 53.5 8 50.5l0-36.9c0-3.1 2.5-5.5 5.5-5.5l36.9 0C53.5 8 56 10.5 56 13.5l0 36.9c0 3.1-2.5 5.6-5.5 5.6" fill="#272727"/><path class="inverted" d="m33.7 46.2c8.5-1.1 14.1-9.4 12-17.8-1.5-5.7-6.4-10-12.2-10.6-8.7-1-16.3 6.1-15.9 14.9 0.4 8.4 7.9 14.6 16.2 13.5z" fill="#85bf25"/></svg>
