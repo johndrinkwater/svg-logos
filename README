@@ -1,6 +1,12 @@
 A hand‐made collection of reusable, very compact, and carefully adjusted SVG
 files of popular Web fronts.
 
+Disclaimer: these are obviously unofficial, hand‐crafted to be as compact as
+possible for inclusion in stylesheets or spritesheets with minimal overhead.
+They should not be used above 256×256px as minor differences to the originals
+may show. Again, they are not intended to be exact replicas, rather near enough
+to look great and still be small in bytes.
+
 Created in a manner to be themeable and to theme, your websites.
 
 You’re welcome to use these files on your site, as long as you point back here
