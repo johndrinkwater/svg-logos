@@ -128,6 +128,14 @@ Superuser
 Head left			#000000
 Head right			#05adee
 
+Telegram
+Envelope			#eff7fc
+	Fold Shade      #a9c9dd
+	Tail			#c8daea
+Circle				#37aee2
+					#1e96c8
+No official colours or guidance I can see on their site, colours taken from a PD logo on wikipedia
+
 Twitter
 Primary				#55acee
 Secondary			#292f33
