@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" color="#e12828">
-  <g transform="matrix(0.29333333,0,0,0.29333333,-4.6666662,-4.6666662)">
-    <path fill="#e12828" d="m 100,200 -50,0 0,-150 50.5,0 z" />
-    <path fill="#e12828" style="opacity:0.85" d="m 150.5,50 -50.5,0 0,50 50.5,0 49.5,0 0,-50 z" />
-    <path fill="#e12828" d="m 100,100 50,0 0,50 -50,0 z" style="opacity:0.75" />
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 15 215 215" color="#e12828"><path fill="#e12828" d="m100,200-50,0 0-150 50.5,0z"/><path fill="#e12828" d="m150.5,50-50.5,0 0,50 50.5,0 49.5,0 0-50z" opacity="0.85"/><path fill="#e12828" d="m100,100 50,0 0,50-50,0 z" opacity="0.75"/></svg>
